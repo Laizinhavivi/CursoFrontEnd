@@ -66,6 +66,7 @@ if (precoProduto>=100){console.log("valor a pagar:"+(precoProduto*0.9)) // 10% d
 }
 
 //switch case
+var mes = 2;
 switch (mes){ 
     case 1 :
         console.log("Janeiro")
@@ -81,4 +82,42 @@ switch (mes){
             break
 }
 
+
+// //java
+// classe = modelo
+// atributo = características
+
+//Estruturas de Repetição
+//For (inicio, fim  e incremento)
+for(let i=0; i<=100 ; i++){ 
+     console.log(i);
+    
+}
+
+//while (condicional)
+var numeroEscolhido = 4;
+var continuar = true;
+var contador = 0;
+while (continuar){ 
+     contador++;
+     let numeroSorteado = Math.round(Math.random()*10); // sortear um número entre 0 e 10
+     if(numeroEscolhido==numeroSorteado){
+        console.log("Acertou!!!!")
+        console.log("numero de tentativas:" +contador);
+        continuar = false;
+     }
+}
+//função é um método que eu pode executar no código
+//funções -  (void // return)
+//function return
+function ola(nome){ //parâmetro
+    return "Olá, "+nome+" Seja Bem-Vindo!!"
+} 
+console.log(ola("Turma A"));
+
+//function void
+function Hello(nome){
+    console.log("Hello, "+nome) ;
+}
+Hello("Turma A");
 
