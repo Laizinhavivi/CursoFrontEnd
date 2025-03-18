@@ -3,7 +3,7 @@
 console.log(Math.sqrt(25)); //5
 
 //potência 
-console.log(Math.pow(3,2)); // 3²= 9
+console.log(Math.pow(3)); // 3²= 9
 console.log(Math.pow(4,3)); // 4 = 64
 console.log(Math.pow(27,1/3))//26^(1/3) = 3
 
